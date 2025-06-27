@@ -1,12 +1,43 @@
-# React + Vite
+# React + Vite + MUI Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern website built with [React](https://react.dev/), [Vite](https://vitejs.dev/), and [Material UI (MUI)](https://mui.com/).  
+It features a responsive layout, navigation, and a styled login form using MUI components.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Fast development with Vite
+- 🎨 Beautiful UI with Material UI (MUI)
+- 🔀 Routing with React Router
+- 📝 Login form with validation and MUI controls
+- 📱 Responsive design
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install dependencies:**
+
+```sh
+npm install
+```
+
+2. **Run the development server:**
+
+```sh
+npm run dev
+```
+
+3. **Build for production:**
+
+```sh
+npm run build
+```
+
+## Project Structure
+
+- `src/App.jsx` – Main app and routing
+- `src/components/Login.jsx` – Login form component
+- `src/main.jsx` – Entry point
+- `public/` – Static assets
+
+## About
+
+I built this website using React and MUI to demonstrate a modern, component-based approach to web development.
